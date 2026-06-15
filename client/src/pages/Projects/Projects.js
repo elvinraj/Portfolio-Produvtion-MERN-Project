@@ -12,11 +12,15 @@ const Projects = () => {
         </h2>
         <hr />
         <p className="pb-3 text-center">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia a
-          odit ab, eligendi cupiditate, minima quasi excepturi modi et quo
-          delectus, iusto dolor atque aliquam aspernatur eveniet! Ipsam eum
-          nobis omnis id voluptatibus quas eos maxime ipsum facere numquam,
-          voluptate qui et animi doloribus nulla eius molestiae unde tempore ad
+          Developed a full-stack Doctor Appointment System using the MERN stack,
+          enabling seamless booking, authentication, and real-time availability
+          management. Built a real-time Chat Application with secure user
+          authentication and instant messaging using WebSockets and modern React
+          architecture. Implemented RESTful APIs, state management, and
+          responsive UI to ensure scalable and user-friendly experiences across
+          both projects. Focused on performance optimization, clean code
+          practices, and deploying production-ready applications with modern
+          development tools.
         </p>
         {/* card design */}
         <div className="row" id="ads">
