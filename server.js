@@ -13,13 +13,13 @@ app.use(cors());
 app.use(express.json());
 
 //static files access
-app.use(express.static(path.join(__dirname, "./client/build/static")));
+app.use(express.static(path.join(__dirname, "./client/build")));
 
 //routes
 app.use("/api/v1/portfolio", require("./routes/portfolioRoute"));
 
-app.get("*", function (req, res) {
-  res.sendFile(path.join(__dirname, "./client/build/index.html"));
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "client/build/index.html"));
 });
 
 //port
